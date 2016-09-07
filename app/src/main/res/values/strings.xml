@@ -39,7 +39,7 @@
     <string name="origin_dest_same">Origin and Destination cannot be same</string>
 
 
-    <string name="apikey">co247146962772701322595373127969</string>
+    <string name="apikey">Enter your API key</string>
 
     <string name="pref_sortby_key">pref_sort</string>
     <string name="pref_sortby_label">Sort by</string>
