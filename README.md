@@ -27,6 +27,8 @@ Implemented Activity transition while exiting Itinerary list activity.
 
 Makes use of content provider for saving flight searches.
 
+Implemented features like navigation drawer layout, appbarlayout.
+
 API key should be entered in Travel-Easy-Capstone-stage---2-/app/src/main/res/values/strings.xml 
 
 Signed release apk and keystore are located in Travel-Easy-Capstone-stage---2-/app  and keystore password is in app gradle file.
