@@ -1,0 +1,98 @@
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/segment_vertical_margin"
+        android:paddingStart="@dimen/segment_horizontal_margin"
+        android:paddingEnd="@dimen/segment_horizontal_margin"
+        android:paddingTop="@dimen/segment_vertical_margin"
+        >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight=".75"
+            android:id="@+id/detail_carrier_logo"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:paddingStart="5dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/detail_origin"
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/white"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:id="@+id/detail_departure"
+                android:textColor="@android:color/white"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:id="@+id/detail_arrow"
+                android:src="@drawable/arrow"
+                android:scaleType="centerCrop"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textAlignment="viewStart"
+                android:id="@+id/detail_flight_no"
+                android:textColor="@android:color/white"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:paddingStart="5dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAlignment="viewStart"
+                android:id="@+id/detail_destination"
+                android:textColor="@android:color/white"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:id="@+id/detail_arrival"
+                android:textColor="@android:color/white"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>

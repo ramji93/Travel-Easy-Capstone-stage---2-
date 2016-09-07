@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Travel Easy</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_search">Travel Easy</string>
+
+    <string name="title_activity_detail">Travel Agents Lists</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_main">Itineraries Lists</string>
+
+    <string name="empty_text_string">No saved searches available.</string>
+
+    <string name="empty_itinerary">No itinerary to display for given search criterias. </string>
+
+    <string name="error429">OOPS! There have been too many requests in the last minute</string>
+
+    <string name="error500">OOPS! An internal server error has occurred </string>
+    
+    <string name="error400">Input validation failed</string>
+
+    <string name="error403">The API Key was not supplied, or it was invalid, or it is not authorized to access the service</string>
+
+    <string name="error204">The session is still being created (wait and try again)</string>
+
+    <string name="error410">The session has expired. Refresh to create a new session.</string>
+
+    <string name="network_error">OOPS! No Internet Connection</string>
+
+    <string name="empty_origin">Origin cannot be empty</string>
+
+    <string name="empty_destination">Destination cannot be empty</string>
+
+    <string name="origin_dest_same">Origin and Destination cannot be same</string>
+
+
+    <string name="apikey">co247146962772701322595373127969</string>
+
+    <string name="pref_sortby_key">pref_sort</string>
+    <string name="pref_sortby_label">Sort by</string>
+
+
+    <string name="pref_price_value">price</string>
+    <string name="pref_duration_value">duration</string>
+    <string name="pref_arrival_value">outboundarrivetime</string>
+    <string name="pref_departure_value">outbounddeparttime</string>
+    <string name="widget_label">travel easy widget</string>
+    <string name="location_header">Location</string>
+    <string name="base_url">http://partners.api.skyscanner.net</string>
+    <string name="saved_search">Search saved</string>
+    <string name="already_saved">Already saved</string>
+
+    <string name="origin_notsupported">The Origin location is not supported by our services</string>
+
+    <string name="destination_notsupported">The destination location is not supported by our services</string>
+
+
+    <string-array name="pref_sortby_values">
+        <item>@string/pref_price_value</item>
+        <item>@string/pref_duration_value</item>
+        <item>@string/pref_arrival_value</item>
+        <item>@string/pref_departure_value</item>
+    </string-array>
+
+    <string-array name="pref_sortby_options">
+        <item>Price</item>
+        <item>Duration</item>
+        <item>Arrival Time</item>
+        <item>Departure Time</item>
+    </string-array>
+
+    <string-array name="class_values">
+        <item>Economy</item>
+        <item>PremiumEconomy</item>
+        <item>Business</item>
+        <item>First</item>
+    </string-array>
+
+    <string-array name="nav_items">
+        <item>Flight Search</item>
+        <item>Saved Searches</item>
+        <item>Settings</item>
+    </string-array>
+
+</resources>

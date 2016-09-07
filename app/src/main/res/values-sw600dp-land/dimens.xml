@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <dimen name="itenarylist_leftmargin">300dp</dimen>
+        <dimen name="itenarylist_rightmargin">300dp</dimen>
+
+        <dimen name="savedlist_leftmargin">300dp</dimen>
+        <dimen name="savedlist_rightmargin">300dp</dimen>
+
+        <dimen name="activity_horizontal_margin">300dp</dimen>
+        <dimen name="activity_vertical_margin">100dp</dimen>
+
+
+        <dimen name="agentlist_leftmargin">300dp</dimen>
+        <dimen name="agentlist_rightmargin">300dp</dimen>
+
+
+        <dimen name="segment_horizontal_margin">300dp</dimen>
+        <dimen name="segment_vertical_margin">16dp</dimen>
+
+
+</resources>

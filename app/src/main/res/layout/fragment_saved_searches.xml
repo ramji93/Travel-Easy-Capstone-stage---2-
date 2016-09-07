@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.traveleasy.Saved_searches_Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:paddingTop="20dp"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:text="@string/empty_text_string"
+        android:contentDescription="@string/empty_text_string"
+        android:id="@+id/empty_text"
+        android:visibility="gone"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginStart="@dimen/savedlist_leftmargin"
+        android:layout_marginEnd="@dimen/savedlist_rightmargin"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/saved_searches_lists"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+</FrameLayout>

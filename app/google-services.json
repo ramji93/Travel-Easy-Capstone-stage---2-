@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "7396613802",
+    "project_id": "firebase-travel-easy"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7396613802:android:0bba689c5e5b4a26",
+        "android_client_info": {
+          "package_name": "com.example.user.traveleasy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBSRHdY5yysFNPzTYBgnwXbdNwnCTHwBs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-83720230-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
