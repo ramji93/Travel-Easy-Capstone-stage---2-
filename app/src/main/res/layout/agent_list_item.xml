@@ -53,26 +53,26 @@
         android:layout_marginTop="10dp"
         android:layout_marginBottom="5dp"
         >
-<Button
+    <Button
     android:layout_width="100dp"
     android:layout_marginStart="50dp"
     android:layout_height="30dp"
     android:textSize="15sp"
     android:textStyle="bold"
-    android:text="BOOK NOW"
+    android:text="@string/book_now"
     android:id="@+id/book_button"
     android:background="@drawable/booknow_background"
-    android:contentDescription="book now"
+    android:contentDescription="@string/book_now"
     />
 
- <ImageButton
+    <ImageButton
      android:layout_width="50dp"
      android:layout_height="30dp"
      android:layout_marginStart="145dp"
      android:src="@android:drawable/ic_menu_share"
      android:id="@+id/share_button"
      android:background="@drawable/share_background"
-     android:contentDescription="share"
+     android:contentDescription="@string/share"
      />
 
     </LinearLayout>
