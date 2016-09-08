@@ -59,6 +59,9 @@
 
     <string name="destination_notsupported">The destination location is not supported by our services</string>
 
+    <string name="book_now">BOOK NOW</string>
+    
+    <string name="share">share</string>
 
     <string-array name="pref_sortby_values">
         <item>@string/pref_price_value</item>
