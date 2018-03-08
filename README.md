@@ -1,4 +1,7 @@
 # Travel-Easy-Capstone-stage---2-
+
+PlayStore link : https://play.google.com/store/apps/details?id=com.capstone.user.traveleasy
+
 Travel Easy is a app for flight booking that searches and populates list of different itineraries available 
 for a given flight journey ordered according to traveller’s preferences (like price, duration).
 On drilling down a chosen itinerary, the app populates list of numerous travel agencies covering 
